@@ -1,0 +1,43 @@
+body {
+  font-family: monospace;
+  background-color: black;
+}
+
+.main {
+  color: greenyellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .mb-10 {
+    margin-bottom: 10px;
+  }
+
+  .board {
+    border: 1px solid greenyellow;
+    width: max-content;
+  
+    .row {
+      display: flex;
+    }
+  
+    .box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid greenyellow;
+      width: 80px;
+      height: 80px;
+      cursor: pointer;
+    }
+  }
+
+  .reset-btn {
+    button {
+      background-color: greenyellow;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  }
+}
